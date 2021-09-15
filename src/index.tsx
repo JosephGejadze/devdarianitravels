@@ -1,14 +1,23 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+// @modules
+import React from "react";
+import ReactDOM from "react-dom";
+import { I18nextProvider } from "react-i18next";
+import i18n from "./translations/i18n";
+import reportWebVitals from "./reportWebVitals";
+
+// @styles
+import "./index.css";
+
+// @components
+import App from "./App";
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+  <I18nextProvider i18n={i18n}>
+    <React.StrictMode>
+      <App />
+    </React.StrictMode>
+  </I18nextProvider>,
+  document.getElementById("root")
 );
 
 // If you want to start measuring performance in your app, pass a function

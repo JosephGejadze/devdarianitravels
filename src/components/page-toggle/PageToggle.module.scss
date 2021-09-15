@@ -1,0 +1,18 @@
+@use "../../common/variables.scss" as v;
+
+.active {
+  color: white;
+  text-decoration: underline;
+  box-shadow: none !important;
+  &:hover {
+    color: white;
+  }
+}
+
+.inactive {
+  color: v.$secondaryColor;
+  &:hover {
+    color: white;
+    text-decoration: none;
+  }
+}

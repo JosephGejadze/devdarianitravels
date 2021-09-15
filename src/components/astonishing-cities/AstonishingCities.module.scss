@@ -1,0 +1,47 @@
+@use "../../common/variables.scss" as v;
+@use "../../common/mixins.scss" as m;
+
+.astonishing_container {
+  width: 100%;
+  background-color: black;
+  color: white;
+  .header {
+    padding: 2rem;
+  }
+  .videos {
+    @include m.center-horizontal;
+    justify-content: space-evenly;
+    iframe {
+      width: 500px;
+      height: 280px;
+    }
+    h3 {
+      margin-top: 1rem;
+      margin-bottom: 2rem;
+    }
+  }
+
+  @media screen and(max-width: v.$responsiveWidth_1) {
+    .videos {
+      iframe {
+        width: 330px;
+        height: 184px;
+      }
+    }
+  }
+
+  @media screen and(max-width: v.$responsiveWidth_2) {
+    .videos {
+      @include m.center-vertical;
+    }
+  }
+
+  @media screen and(max-width: v.$responsiveWidth_3) {
+    .videos {
+      iframe {
+        width: 320px;
+        height: 178px;
+      }
+    }
+  }
+}

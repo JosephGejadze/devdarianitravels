@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "BPG Arial";
+  src: url("./packages/bpg-arial/bpg-arial-webfont.woff") format("woff"),
+    url("./packages/bpg-arial/bpg-arial-webfont.woff2") format("woff2"),
+    url("./packages/bpg-arial/bpg-arial-webfont.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Fira Sans Condensed Thin";
+  src: url("./packages/fira-sans-condensed/FiraSansCondensed-Thin.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "Fira Sans Condensed Medium";
+  src: url("./packages/fira-sans-condensed/FiraSansCondensed-Medium.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "Fira Sans Condensed Bold";
+  src: url("./packages/fira-sans-condensed/FiraSansCondensed-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Abel";
+  src: url("./packages/abel/Abel-Regular.ttf");
+}

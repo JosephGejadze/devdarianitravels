@@ -1,0 +1,29 @@
+@use "../../common/variables.scss" as v;
+
+.footer {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1rem;
+  p {
+    margin: 0;
+    text-align: right;
+    font-size: 1.2rem;
+  }
+  img {
+    width: 40%;
+    max-width: 480px;
+  }
+  @media screen and(max-width: v.$responsiveWidth_2) {
+    display: flex;
+    flex-direction: column;
+    p {
+      text-align: center;
+    }
+    img {
+      width: 75%;
+      max-width: 360px;
+    }
+  }
+}

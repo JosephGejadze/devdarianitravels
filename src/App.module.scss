@@ -1,0 +1,9 @@
+@use "./common/variables.scss" as v;
+
+.App {
+  text-align: center;
+  min-width: 320px;
+  * {
+    font-family: v.$mainFont;
+  }
+}

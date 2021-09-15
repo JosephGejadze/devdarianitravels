@@ -1,0 +1,13 @@
+@use "./fonts/fonts.scss";
+
+$mainColor: #4d4d4f;
+$secondaryColor: #c7c8ca;
+
+$mainFont: "Fira Sans Condensed Medium", "BPG Arial", "sans-serif";
+$mainFontBold: "Fira Sans Condensed Bold", "BPG Arial", "sans-serif";
+$mainFontThin: "Fira Sans Condensed Thin", "BPG Arial", "sans-serif";
+$secondaryFont: "Abel", "BPG Arial", verdana;
+
+$responsiveWidth_1: 1024px;
+$responsiveWidth_2: 680px;
+$responsiveWidth_3: 414px;

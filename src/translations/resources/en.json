@@ -1,0 +1,30 @@
+{
+  "translations": {
+    "astonishingCities": "Astonishing Cities",
+    "hello": "Hello",
+    "destinations": {
+      "barcelona": "Barcelona",
+      "barcelonaBody": "",
+      "georgia": "Georgia",
+      "georgiaBody": "Discover breathtaking mountains and ancient buildings  in between of Europe and Asia. With it's magnificent sights, Georgia is one of the countries where one can enjoy both Icy mountains and hot summer resorts.",
+      "japan": "Japan",
+      "japanBody": "",
+      "london": "London",
+      "londonBody": "",
+      "paris": "Paris",
+      "parisBody": "",
+      "rome": "Rome",
+      "romeBody": "",
+      "popular": "WORLDWIDE POPULAR DESTINATIONS",
+      "explore": "Explore all Destinations"
+    },
+    "myGoal": {
+      "myGoal": "My Goal",
+      "description": "My goal is to bring you the best traveling experience for the lowest price possible. The services I provide can be both within the U.S, and international! You get the choice of preselecting the hotels, flights, and cruises. Or let the expert help out and try discussing and choosing every step of your travel with me.",
+      "callMe": "Please call or e-mail me for a free consultation",
+      "click": "Give me a call or click the \"contact now\" button below to book a trip!",
+      "contact": "Contact Now"
+    },
+    "togglePage": { "about": "About", "home": "Home" }
+  }
+}

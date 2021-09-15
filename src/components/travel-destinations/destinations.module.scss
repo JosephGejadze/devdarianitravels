@@ -1,0 +1,53 @@
+@use "../../common/variables.scss" as v;
+@use "../../common/mixins.scss" as m;
+
+.destinationsContainer {
+  width: 100%;
+  padding: 4rem;
+  background-color: v.$mainColor;
+  @include m.center-vertical;
+
+  h3 {
+    margin-bottom: 2rem;
+    font-family: v.$mainFontBold;
+    color: black;
+  }
+  .gridContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3vw;
+    div {
+      height: 100%;
+    }
+  }
+  .button {
+    margin: 2rem 0rem;
+    font-size: 24px;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+  }
+  @media screen and(max-width: v.$responsiveWidth_1) {
+    .gridContainer {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  @media screen and(max-width: v.$responsiveWidth_2) {
+    padding: 2rem;
+    .gridContainer {
+      grid-template-columns: 1fr;
+    }
+  }
+}
+
+.destinationCard {
+  width: 320px;
+  .title {
+    margin: 1rem !important;
+    text-align: left;
+  }
+  .body {
+    margin: 1rem;
+    margin-top: 0px;
+    text-align: left;
+  }
+}

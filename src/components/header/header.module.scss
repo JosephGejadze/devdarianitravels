@@ -1,0 +1,43 @@
+@use "../../common/variables.scss" as v;
+@use "../../common/mixins.scss" as m;
+
+.header {
+  @include m.center-vertical;
+  background-color: v.$mainColor !important;
+  justify-content: space-between;
+  height: 320px;
+
+  .logo {
+    height: 45%;
+    margin: 16px;
+  }
+  .logoSub {
+    color: v.$secondaryColor;
+    letter-spacing: 2.4px;
+    font-family: v.$mainFontBold;
+  }
+  .slogan {
+    font-size: 32px;
+    font-family: v.$secondaryFont;
+  }
+  .langSwitchContainer {
+    position: absolute;
+    right: 8px;
+    top: 8px;
+  }
+  @media screen and(max-width: v.$responsiveWidth_2) {
+    height: 240px;
+    .logo {
+      height: 35%;
+    }
+    .logoSub {
+      font-size: 20px;
+    }
+    .slogan {
+      font-size: 24px;
+    }
+    .langSwitchContainer {
+      transform: scale(0.8);
+    }
+  }
+}
